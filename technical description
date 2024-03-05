@@ -5,6 +5,7 @@
 1. [Routes](#Routes)
 1. [Misc](#Misc)
 
+<details>
 ### [Description](#Description)
 <a name="OA--Description"></a><a name="Description"></a>
 
@@ -17,7 +18,7 @@ The models.py file shows Ranges and Clothing classes with attributes defined as 
 The join table is defined as a table object - hence, the two foreign key columns.
 
 Instances of the Ranges and Clothing classes are created and then added to the database via the 'session' object.... the instances represent the comvination of clothing items and temperature ranges the application recommends to the user.
-
+</details>
 
 [Back to Top](#table-of-contents)
 
