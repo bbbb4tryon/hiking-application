@@ -1,0 +1,30 @@
+
+Outdoors App
+Description
+
+Routes
+'/' (Welcome Message): Returns a welcome message for users interested in outdoor adventures.
+
+'/ranges' (Temperature Ranges): Queries the database for all temperature ranges and returns them in JSON format.
+
+'/clothing' (Clothing Items): Queries the database for all clothing items and returns them in JSON format.
+
+'/clothing/int:clothing_id/ranges' (Clothing with Ranges): Takes a clothing item ID as a parameter, retrieves the item from the database, and returns its associated temperature ranges in JSON format.
+
+Database
+The application uses an SQLite database named 'outdoors.db' with two tables:
+
+Ranges: Stores information about temperature ranges, including range_name, min_temp, and max_temp.
+
+Clothing: Stores information about clothing items, including generic_name and function, with a many-to-many relationship with the Ranges table.
+
+Usage
+Visit the following routes in your browser or through API requests:
+
+Welcome Message: http://localhost:5000/
+
+Temperature Ranges: http://localhost:5000/ranges
+
+Clothing Items: http://localhost:5000/clothing
+
+Clothing with Ranges (replace {clothing_id} with the desired ID): http://localhost:5000/clothing/{clothing_id}/ranges
