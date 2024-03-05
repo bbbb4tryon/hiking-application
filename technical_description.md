@@ -5,10 +5,10 @@
 1. [Routes](#Routes)
 1. [Misc](#Misc)
 
-<details>
+
 ### [Description](#Description)
 <a name="OA--Description"></a><a name="Description"></a>
-
+<details>
 This application recommends outdoor clothing based on temperature ranges at a location.
 
 It uses SQLAlchemy to create a db schema with two tables, Clothing and Ranges. They each have a many-to-many relationship via the Recommendations join table.  Each Clothing item can be recommended for multiple Ranges and each Range can 'recommend' multiple Clothing items.
