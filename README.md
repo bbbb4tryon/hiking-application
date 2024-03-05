@@ -1,7 +1,7 @@
 
 #  Wondering what you need to wear on a hiking trip? HERE is your answer
 
-[!NOTE] Install dependencies
+:white_check_mark: Install dependencies
 ```
 pip install -r requirements.txt
 ```
